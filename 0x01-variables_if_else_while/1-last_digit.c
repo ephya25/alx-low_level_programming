@@ -15,7 +15,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	o = n % 8;
+	o = n % 10;
 
 	if (o > 5)
 		printf("Last digit of %i is %i and is grater than 5\n", n, o);
