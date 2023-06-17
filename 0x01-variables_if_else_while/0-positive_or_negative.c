@@ -2,9 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main	- assign a random number to n everytime
- *
- * execute it, and print it
+ * main	- Entry point
  *
  * Return: 0 (Sucees)
  */
