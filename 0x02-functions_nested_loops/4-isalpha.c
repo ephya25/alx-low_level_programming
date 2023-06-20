@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha - check for alphabetic character
+ * _isalpha - check for alphabetic characters
  * @c: input character
- * Return: 1 if lowercase or uppercase, if otherwise 0
+ * Return: 1 is chracter is lowercase or uppercase, if otherwise 0
  */
 int _isalpha(int c)
 {
@@ -14,7 +14,7 @@ int _isalpha(int c)
 	{
 		for (upper = 'A'; upper <= 'Z'; upper++)
 		{
-			if (c ==lower || c ==upper)
+			if (c == lower || c == upper)
 				isalpha = 1;
 		}
 	}
