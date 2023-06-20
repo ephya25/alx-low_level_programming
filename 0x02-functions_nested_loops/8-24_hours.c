@@ -7,9 +7,9 @@
  */
 void jack_bauer(void)
 {
-	int t,m;
+	int t, m;
 
-	for (t =0; t < 24; t++)
+	for (t = 0; t < 24; t++)
 	{
 		for (m = 0; m < 60; m++)
 		{
