@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * main	- print all the letters except e and q in lowercase
+ * main	- main block
+ *
+ * Description: print all the letters except 'q' and 'e' in lowercase
  *
  * Return: 0 (Success)
  */
@@ -10,7 +12,7 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		if (c != 'q' && c !=e)
+		if (c != 'q' && c != 'e')
 			putchar(c);
 		c++;
 	}
