@@ -34,8 +34,7 @@ int main(void)
 		m1 = m1 - n1;
 		m2 = m2 - n2;
 	}
-
 	printf("\n");
-
+	
 	return (0);
 }
