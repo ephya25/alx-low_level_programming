@@ -7,12 +7,13 @@ include "main.h"
  */
 void print_most_numbers(void)
 {
-	int numb;
+	char c;
 
-	for (numb = 0; numb <= 9; numb++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		if (numb != 2 && numb != 4)
-			_putchar((numb % 10) + '0');
+		if (!(c == '2' || c == '4'))
+			_putchar(c);
 	}
 	_putchar('\n');
 }
+
