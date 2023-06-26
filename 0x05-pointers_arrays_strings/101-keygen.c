@@ -7,7 +7,7 @@
  *
  * Return: 0 (Success)
  */
-int main(voiid)
+int main(void)
 {
 	int pass[100];
 	int i, sum, n;
