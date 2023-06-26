@@ -7,23 +7,17 @@
  */
 void puts2(char *str)
 {
-	int lon = 0;
-	int b = 0;
-	char *y = str;
-	int o;
+	int count = 0;
 
-	while (*y != '\0')
+	while (count >= 0)
 	{
-		y++;
-		lon++;
+		if (str[count] == '\0')
+		{
+			_putchar('\n');
+			break;
+		}
+		if (count % 2 == 0)
+			_putchar(str[count]);
+		count++;
 	}
-	b = lon - 1;
-	for (o = 0 ; o <= b ; o++)
-	{
-		if (o % 2 == 0)
-	{
-		_putchar(str[o]);
-	}
-	}
-	_putchar('\n');
 }
