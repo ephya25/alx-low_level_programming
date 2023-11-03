@@ -1,11 +1,19 @@
+/*
+ * File: 2-key_index.c
+ * Auth: Vicentia
+*/
+
 #include "hash_tables.h"
 
 /**
- * key_index - get index for key given
- * @key: key (string) to hash
- * @size: size of hash table
+ * key_index - Get the index at which a key/value pair should
+ *             be stored in array of a hash table.
+ * @key: The key to get the index of.
+ * @size: The size of the array of the hash table.
  *
- * Return: index of 'key' using djb2
+ * Return: The index of the key.
+ *
+ * Description: Uses the djb2 algorithm.
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
